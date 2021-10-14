@@ -1,9 +1,9 @@
 # 2021Web-Design-Competition
 2021年网页设计大赛
 
-## 建党百年
-
 [![Mainpage](https://img.shields.io/badge/competition-SCU--Web--Design--Competition-green)](https://github.com/jzzzzh/2021Web-Design-Competition)
+
+## 建党百年
 
 设计核心：大气 大气 大气
 

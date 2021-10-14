@@ -3,6 +3,8 @@
 
 ## 建党百年
 
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="252" height="20" role="img" aria-label="competition: SCU-Web-Design-Competition"><title>competition: SCU-Web-Design-Competition</title><linearGradient id="s" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="r"><rect width="252" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#r)"><rect width="75" height="20" fill="#555"/><rect x="75" width="177" height="20" fill="#97ca00"/><rect width="252" height="20" fill="url(#s)"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110"><text aria-hidden="true" x="385" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="650">competition</text><text x="385" y="140" transform="scale(.1)" fill="#fff" textLength="650">competition</text><text aria-hidden="true" x="1625" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="1670">SCU-Web-Design-Competition</text><text x="1625" y="140" transform="scale(.1)" fill="#fff" textLength="1670">SCU-Web-Design-Competition</text></g></svg>
+
 设计核心：大气 大气 大气
 
 <font color=red>以下都可以调整</font>

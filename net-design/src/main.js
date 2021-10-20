@@ -7,8 +7,16 @@ import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
 Vue.use(Vuetify)
 
-
 /* eslint-disable no-new */
+Vue.component( 'test-component', {
+  template: `
+  <div>
+    <v-alert type="success">
+    It's a test message
+    </v-alert>
+  </div>`
+})
+
 new Vue({
   el: '#app',
   router,

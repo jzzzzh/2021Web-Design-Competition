@@ -1,7 +1,9 @@
 <template>
   <v-app id="app">
     <img id="pic1" src="./assets/logo.png">
-    <v-progress-circular id="test_component":value="20"></v-progress-circular>
+    <div class="my-2">
+        <v-btn small color="error">testButton</v-btn>
+    </div>
     <router-view/>
   </v-app>
 </template>

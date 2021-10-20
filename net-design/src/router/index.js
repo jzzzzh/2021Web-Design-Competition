@@ -7,6 +7,7 @@ import hhfj from '../components/hhfj.vue'
 import jdgs from '../components/jdgs.vue'
 import mhwl from '../components/mhwl.vue'
 import fyrw from '../components/fyrw.vue'
+import input from '../components/input.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -36,5 +37,10 @@ export default new Router({
 	  name: 'mhwl',
 	  component: mhwl,
 	},
+  {
+    path: '/input',
+    name: 'input',
+    component: input,
+  },
   ]
 })

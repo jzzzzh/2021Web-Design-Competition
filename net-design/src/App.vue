@@ -1,8 +1,9 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
+  <v-app id="app">
+    <img id="pic1" src="./assets/logo.png">
+    <v-progress-circular id="test_component":value="20"></v-progress-circular>
     <router-view/>
-  </div>
+  </v-app>
 </template>
 
 <script>
@@ -20,4 +21,11 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+#pic1 {
+  margin: 0 auto;
+  width: 100px;
+  height: 180px;
+}
+
 </style>

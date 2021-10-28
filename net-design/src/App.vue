@@ -10,16 +10,19 @@
 	            </div>
 	            <div class="section">
 	                section2
+					<fyrw></fyrw>
 	            </div>
 	            <div class="section">
 	                <div class="box3">
 	                section3
 	                </div>
+					<jdgs></jdgs>
 	            </div>
 	            <div class="section">
 	                <div class="box3">
 	                section4
 	                </div>
+					<dmtx></dmtx>
 	            </div>
 	        </full-page>
 	    </div>
@@ -28,10 +31,16 @@
 
 <script>
 import Home from './components/Home.vue'
+import jdgs from './components/jdgs.vue'
+import fyrw from './components/fyrw.vue'
+import dmtx from './components/dmtx.vue'
 export default {
   name: 'App',
   components:{
-  	Home
+  	Home,
+	jdgs,
+	fyrw,
+	dmtx,
   },
   data () {
           return {
@@ -81,11 +90,11 @@ export default {
   		        //是否记录历史，可以通过浏览器的前进后退来导航
   		        //recordHistory: true,
   		        //绑定菜单，设定相关属性和anchors的值对应后，菜单可以控制幻灯片滚动
-  		        //menu: '.nav',
+  		        // menu: '.nav',
   		        //是否显示导航，设为true会显示小圆点作为导航
-  		        //navigation: true,
+  		        // navigation: true,
   		        //导航小圆点的位置，可以设置为left或者right
-  		        //navigationPosition: right,
+  		        // navigationPosition: right,
   		        //鼠标移动到小圆点上时显示出的提示信息
   		        //navigationTooltips: ["第一页","第二页","第三页"],
   		        //是否显示当前页面小圆点导航的提示信息，不需要鼠标移上

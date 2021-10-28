@@ -5,7 +5,7 @@ import HelloWorld from '@/components/HelloWorld'
 import Home from '../components/Home.vue'
 import hhfj from '../components/hhfj.vue'
 import jdgs from '../components/jdgs.vue'
-import mhwl from '../components/mhwl.vue'
+import dmtx from '../components/dmtx.vue'
 import fyrw from '../components/fyrw.vue'
 Vue.use(Router)
 
@@ -32,9 +32,9 @@ export default new Router({
 	  component: hhfj,
 	},
 	{
-	  path: '/mhwl',
-	  name: 'mhwl',
-	  component: mhwl,
+	  path: '/dmtx',
+	  name: 'dmtx',
+	  component: dmtx,
 	},
   ]
 })

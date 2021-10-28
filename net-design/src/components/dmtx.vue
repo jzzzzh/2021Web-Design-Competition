@@ -7,10 +7,10 @@
 
 <script>
 	export default {
-		name: 'mhwl',
+		name: 'dmtx',
 		data() {
 			return {
-				title: '美好未来'
+				title: '党民同心'
 			}
 		}
 	}

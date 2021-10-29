@@ -7,8 +7,7 @@
         <!-- 建议在nanhu.jpg上ps毛笔竖排文字 -->
       </div>
       <parallax></parallax>
-      <div style="background-color: coral;height: 300%;" >
-        <jdwy></jdwy>
+      <jdwy></jdwy>
       </div>
 	  </div>
   </v-app>
@@ -116,7 +115,6 @@ export default {
 .header {
   position: sticky;
   top: 0;
-  z-index: -1;
 }
 
 #app {
@@ -127,7 +125,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 0px;
-  z-index: -2;
+  position: relative;
 }
 
 

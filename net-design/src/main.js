@@ -4,8 +4,11 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import $ from 'jquery'
-import 'fullpage.js/vendors/scrolloverflow';
-import VueFullPage from 'vue-fullpage.js';
+import 'fullpage.js/vendors/scrolloverflow'
+import VueFullPage from 'vue-fullpage.js'
+import Vuetify from 'vuetify'
+import 'vuetify/dist/vuetify.min.css'
+Vue.use(Vuetify);
 Vue.use(VueFullPage);
 Vue.config.productionTip = false
 
@@ -13,6 +16,7 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   router,
+  vuetify: new Vuetify(),
   components: { App },
   template: '<App/>'
 })

@@ -1,32 +1,40 @@
 <template>
-  <div id="app">
+  <v-app id="app">
     <!-- <router-view/> -->
-	<div>
-	        <full-page :options="options">
+    <div>
+      <v-parallax dark src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg">
+          <v-row align="center" justify="center">
+            <v-col class="text-center" cols="12">
+              <h1 class="display-1 font-weight-thin mb-4">Vuetify.js</h1>
+              <h4 class="subheading">Build your application today!</h4>
+            </v-col>
+          </v-row>
+      </v-parallax> 
+          <full-page :options="options">
 	            //每个需要全屏滚动的页面都需要包在
-	            <div class="section">
-	                   section1
-					   <Home></Home>
+              <div class="section">
+	              section1
+                <Home></Home>
 	            </div>
 	            <div class="section">
-	                section2
-					<fyrw></fyrw>
+	              section2
+                <fyrw></fyrw>
 	            </div>
 	            <div class="section">
-	                <div class="box3">
-	                section3
-	                </div>
-					<jdgs></jdgs>
+	              <div class="box3">
+                  section3
+	              </div>
+                <jdgs></jdgs>
 	            </div>
 	            <div class="section">
-	                <div class="box3">
+	              <div class="box3">
 	                section4
-	                </div>
-					<dmtx></dmtx>
+	              </div>
+                <dmtx></dmtx>
 	            </div>
 	        </full-page>
 	    </div>
-  </div>
+  </v-app>
 </template>
 
 <script>

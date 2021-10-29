@@ -1,17 +1,23 @@
 <template>
   <v-app id="app">
-    <!-- <router-view/> -->
     <div>
-      <v-parallax dark src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg">
-          <v-row align="center" justify="center">
-            <v-col class="text-center" cols="12">
-              <h1 class="display-1 font-weight-thin mb-4">Vuetify.js</h1>
-              <h4 class="subheading">Build your application today!</h4>
-            </v-col>
-          </v-row>
-      </v-parallax> 
-          <full-page :options="options">
-	            //每个需要全屏滚动的页面都需要包在
+      <!-- <router-view/> -->
+      <div class="header">
+        <img height='20%' width='100%'src="../static/nanhu.jpg"/>
+        <!-- 建议在nanhu.jpg上ps毛笔竖排文字 -->
+      </div>
+      <div>
+        <v-parallax dark src="../static/jiandang.jpg">
+            <v-row align="center" justify="center">
+              <v-col class="text-center" cols="12">
+                <h1 class="display-1 font-weight-thin mb-4">视差组件</h1>
+                <h1 class="subheading">建党伟业</h1>
+              </v-col>
+            </v-row>
+        </v-parallax>
+      </div>
+      <div style="background-color: coral;height: 1000%;" ></div>
+          <!-- <full-page :options="options">
               <div class="section">
 	              section1
                 <Home></Home>
@@ -32,7 +38,7 @@
 	              </div>
                 <dmtx></dmtx>
 	            </div>
-	        </full-page>
+	        </full-page> -->
 	    </div>
   </v-app>
 </template>
@@ -134,6 +140,21 @@ export default {
 
 <style>
 
+.header {
+  position: sticky;
+  top: 0;
+}
+
+.vertical {
+  margin: 0 auto;
+  height: 140px;
+  writing-mode: vertical-lr;/*从左向右 从右向左是 writing-mode: vertical-rl;*/
+  writing-mode: tb-lr;/*IE浏览器的从左向右 从右向左是 writing-mode: tb-rl；*/
+  color: #008900;
+  position: sticky;
+  top: 200px;
+}
+
 #app {
   font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -141,9 +162,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 0px;
-/*  background: url(assets/1.png);
-  background-size: 100% 100%;
-	height: 100%; */
 }
 
 

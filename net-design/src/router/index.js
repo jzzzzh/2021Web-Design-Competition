@@ -4,9 +4,10 @@ import HelloWorld from '@/components/HelloWorld'
 // import home from '../components/home.vue'
 import Home from '../components/Home.vue'
 import hhfj from '../components/hhfj.vue'
-import jdgs from '../components/jdgs.vue'
+import jdwy from '../components/jdwy.vue'
 import dmtx from '../components/dmtx.vue'
 import fyrw from '../components/fyrw.vue'
+import parallax from '../components/parallax.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -22,9 +23,9 @@ export default new Router({
 	  component: fyrw,
 	},
 	{
-	  path: '/jdgs',
-	  name: 'jdgs',
-	  component: jdgs,
+	  path: '/jdwy',
+	  name: 'jdwy',
+	  component: jdwy,
 	},
 	{
 	  path: '/hhfj',
@@ -36,5 +37,10 @@ export default new Router({
 	  name: 'dmtx',
 	  component: dmtx,
 	},
+  {
+    path: '/parallax',
+    name: 'parallax',
+    component: parallax,
+  },
   ]
 })

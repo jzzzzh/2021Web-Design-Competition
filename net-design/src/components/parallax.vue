@@ -4,7 +4,7 @@
     <!-- 裁切图片下面部分 使得人物处于中心位置 -->
         <v-row align="center" justify="center">
           <v-col class="text-center" cols="12">
-            <h1 class="subheading">建党伟业</h1>
+            <h1 class="display-2 font-weight-black mb-3" id="headText">建党伟业</h1>
           </v-col>
         </v-row>
     </v-parallax>
@@ -21,4 +21,8 @@
 </script>
 
 <style>
+#headText {
+  color:LightSteelBlue;
+  font-family: "STHeiti";
+}
 </style>

@@ -10,6 +10,7 @@
       <jdwy></jdwy>
       </div>
 	  </div>
+    <goto id="gotoBlock"></goto>
   </v-app>
 </template>
 
@@ -19,6 +20,7 @@ import jdwy from './components/jdwy.vue'
 import fyrw from './components/fyrw.vue'
 import dmtx from './components/dmtx.vue'
 import parallax from './components/parallax.vue'
+import goto from './components/goto.vue'
 export default {
   name: 'App',
   components:{
@@ -27,6 +29,7 @@ export default {
 	fyrw,
 	dmtx,
   parallax,
+  goto,
   },
   data () {
           return {
@@ -127,6 +130,10 @@ export default {
   margin-top: 0px;
   position: relative;
 }
-
+#gotoBlock{
+  position: absolute;
+  right: 50px;
+  bottom: 100px;
+}
 
 </style>

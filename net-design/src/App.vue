@@ -4,7 +4,7 @@
       <!-- <router-view/> -->
       <div class="header">
         <img width="100%" src="../static/nanhu.jpg"/>
-        <!-- 建议在nanhu.jpg上ps毛笔竖排文字 -->
+        <!-- 建议在nanhu.jpg上ps毛笔竖排文字 -->		
       </div>
       <parallax></parallax>
       <jdwy></jdwy>
@@ -114,7 +114,7 @@ export default {
 </script>
 
 <style>
-
+@import url("./assets/font.css");
 .header {
   position: sticky;
   top: 0;
@@ -135,5 +135,7 @@ export default {
   right: 50px;
   bottom: 100px;
 }
-
+#headline{
+	font-family: "FZBaiZRZTJW";
+}
 </style>

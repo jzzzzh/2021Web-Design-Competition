@@ -137,9 +137,9 @@ export default {
 }
 
 #gotoBlock{
-  position: absolute;
+  position: fixed;
   right: 50px;
-  bottom: 100px;
+  top: 85%;
 }
 
 #test1 {

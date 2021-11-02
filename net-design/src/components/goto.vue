@@ -17,21 +17,6 @@
       </v-card>
     </v-expand-x-transition>
   </div>
-<!--  <v-container>
-        <v-select
-          v-model="selected"
-          :items="elements"
-          label="DOMElement"
-        ></v-select>
-        <v-btn
-          ref="button"
-          block
-          color="primary"
-          @click="$vuetify.goTo(target, options)"
-        >
-          scroll
-        </v-btn>
-  </v-container> -->
 </template>
 
 <script>

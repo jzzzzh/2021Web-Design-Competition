@@ -57,7 +57,5 @@
  /* 解决了button等组件的ripple效果被背景遮挡的bug 但我也不知道为什么这么写有用 */
 #jdwy {
     background-color: rgb(210, 210, 227);
-    position: sticky;
-    top: 0;
 }
 </style>

@@ -2,9 +2,15 @@
   <v-app id="app">
     <div>
       <!-- <router-view/> -->
-      <div class="header">
+      <div id="header">
         <img width="100%" src="../static/nanhu.jpg"/>
         <!-- 建议在nanhu.jpg上ps毛笔竖排文字 -->
+      </div>
+      <div id="test1">
+      </div>
+      <div id="test2">
+      </div>
+      <div id="test3">
       </div>
       <parallax></parallax>
       <jdwy></jdwy>
@@ -115,9 +121,8 @@ export default {
 
 <style>
 
-.header {
-  position: sticky;
-  top: 0;
+#header {
+
 }
 
 #app {
@@ -130,10 +135,25 @@ export default {
   margin-top: 0px;
   position: relative;
 }
+
 #gotoBlock{
   position: absolute;
   right: 50px;
   bottom: 100px;
 }
 
+#test1 {
+  background-color: #006064;
+  height: 1000px;
+}
+
+#test2 {
+  background-color: lavender;
+  height: 1000px;
+}
+
+#test3 {
+  background-color: lightcoral;
+  height: 1000px;
+}
 </style>

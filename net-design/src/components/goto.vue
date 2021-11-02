@@ -7,54 +7,48 @@
     </v-btn>
     <v-expand-x-transition>
       <v-card v-show="this.show"
-      style="position: absolute;right: 10px;top: -100px"
+      style="position: absolute;right: 10px;top: -30px"
       class="mx-auto"max-width="344">
-        <v-tabs vertical>
-          <v-tab>
-            home
-          </v-tab>
-          <v-tab>
-            风云人物
-          </v-tab>
-          <v-tab>
-            建党故事
-          </v-tab>
-          <v-tab>
-            党民同心
-          </v-tab>
+        <v-tabs vertical v-for="(item, i) in items" :key="i">
+          <v-btn @click="$vuetify.goTo('#'+item.id,item.options)">
+          {{item.id}}
+          </v-btn>
         </v-tabs>
       </v-card>
     </v-expand-x-transition>
   </div>
-<!--  <v-container>
-        <v-select
-          v-model="selected"
-          :items="elements"
-          label="DOMElement"
-        ></v-select>
-        <v-btn
-          ref="button"
-          block
-          color="primary"
-          @click="$vuetify.goTo(target, options)"
-        >
-          scroll
-        </v-btn>
-  </v-container> -->
 </template>
 
 <script>
   import * as easings from 'vuetify/es5/services/goto/easing-patterns'
 
   export default {
-    data () {
-      return {
-        show: 'false',
-        selector: null,
-        selections: ['#first', '#second', '#third'],
-        duration: 300,
-      }
-    },
+    data: () => ({
+    show: 'false',
+    items: [
+      {
+        options:{
+              duration: 800,
+              offset: 0,
+              easing: 'easeInOutQuad',
+            },id:'test1',
+      },
+      {
+        options:{
+              duration: 800,
+              offset: 0,
+              easing: 'easeInOutQuad',
+            },id:'test2',
+      },
+      {
+        options:{
+              duration: 800,
+              offset: 0,
+              easing: 'easeInOutQuad',
+            },id:'test3',
+      },
+    ]
+  })
   }
 </script>
 

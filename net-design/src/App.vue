@@ -2,9 +2,15 @@
   <v-app id="app">
     <div>
       <!-- <router-view/> -->
-      <div class="header">
+      <div id="header">
         <img width="100%" src="../static/nanhu.jpg"/>
         <!-- 建议在nanhu.jpg上ps毛笔竖排文字 -->		
+      </div>
+      <div id="test1">
+      </div>
+      <div id="test2">
+      </div>
+      <div id="test3">
       </div>
       <parallax></parallax>
       <jdwy></jdwy>
@@ -114,10 +120,16 @@ export default {
 </script>
 
 <style>
+<<<<<<< HEAD
 @import url("./assets/font.css");
 .header {
   position: sticky;
   top: 0;
+=======
+
+#header {
+
+>>>>>>> fa27c00d1422978488d46609ea96a03c5fee07a8
 }
 
 #app {
@@ -130,12 +142,30 @@ export default {
   margin-top: 0px;
   position: relative;
 }
+
 #gotoBlock{
-  position: absolute;
+  position: fixed;
   right: 50px;
-  bottom: 100px;
+  top: 85%;
 }
+<<<<<<< HEAD
 #headline{
 	font-family: "FZBaiZRZTJW";
+=======
+
+#test1 {
+  background-color: #006064;
+  height: 1000px;
+}
+
+#test2 {
+  background-color: lavender;
+  height: 1000px;
+}
+
+#test3 {
+  background-color: lightcoral;
+  height: 1000px;
+>>>>>>> fa27c00d1422978488d46609ea96a03c5fee07a8
 }
 </style>

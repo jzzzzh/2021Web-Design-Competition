@@ -1,3 +1,4 @@
+//风云人物 正面
 <template>
   <div class="origin-box" @click="change">
     <div class="img-area">

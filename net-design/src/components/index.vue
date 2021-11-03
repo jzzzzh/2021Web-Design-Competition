@@ -1,3 +1,4 @@
+//风云人物 index
 <template>
   <div>
     <original-box v-if="!changeFlag"  @parentChange="change"/>

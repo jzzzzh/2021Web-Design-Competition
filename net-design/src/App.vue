@@ -7,10 +7,13 @@
         <!-- 建议在nanhu.jpg上ps毛笔竖排文字 -->
       </div>
       <div id="test1">
+			<index></index>
       </div>
       <div id="test2">
       </div>
       <div id="test3">
+		  <parallax2></parallax2>
+		  <hover></hover>
       </div>
       <parallax></parallax>
       <jdwy></jdwy>
@@ -27,6 +30,9 @@ import fyrw from './components/fyrw.vue'
 import dmtx from './components/dmtx.vue'
 import parallax from './components/parallax.vue'
 import goto from './components/goto.vue'
+import hover from './components/hover.vue'
+import index from './components/index.vue'
+import parallax2 from './components/parallax2.vue'
 export default {
   name: 'App',
   components:{
@@ -36,6 +42,9 @@ export default {
 	dmtx,
   parallax,
   goto,
+  hover,
+	index,
+ parallax2,
   },
   data () {
           return {

@@ -2,16 +2,17 @@
   <div>
     <v-btn small fab color="lightblue"
     style="position: absolute;"
-    @click="show = !show">
+    @click="show = !show" @mouseenter="show = true">
       <div>+</div>
     </v-btn>
     <v-expand-x-transition>
-      <v-card v-show="this.show"
+      <v-card v-show=show
       style="position: absolute;right: 10px;top: -30px"
       class="mx-auto"max-width="344">
         <v-tabs vertical v-for="(item, i) in items" :key="i">
-          <v-btn @click="$vuetify.goTo('#'+item.id,item.options)">
-          {{item.id}}
+          <v-btn @click="$vuetify.goTo(item.id,item.options)"
+          text small outlined color="primary">
+          {{item.name}}
           </v-btn>
         </v-tabs>
       </v-card>
@@ -31,21 +32,36 @@
               duration: 800,
               offset: 0,
               easing: 'easeInOutQuad',
-            },id:'test1',
+            },
+        id:'#test1',
+        name: 'test1',
       },
       {
         options:{
               duration: 800,
               offset: 0,
               easing: 'easeInOutQuad',
-            },id:'test2',
+            },
+        id:'#test2',
+        name: 'test2',
       },
       {
         options:{
               duration: 800,
               offset: 0,
               easing: 'easeInOutQuad',
-            },id:'test3',
+            },
+        id:'#test3',
+        name: 'test3',
+      },
+      {
+        options:{
+              duration: 800,
+              offset: 0,
+              easing: 'easeInOutQuad',
+            },
+        id:'#jdwy',
+        name: '建党伟业',
       },
     ]
   })

@@ -13,7 +13,8 @@
               <span class="headline font-weight-bold">{{ item.dotText }}</span>
             </v-avatar>
           </template>
-          <v-card :elevation="10" v-ripple="{ class: `primary--text` }"  :color="item.color" @mouseenter="item.show = true" @mouseleave="item.show = false">
+          <v-card :elevation="10" v-ripple="{ class: `primary--text` }"  :color="item.color" 
+          @mouseenter="item.show = true" @mouseleave="item.show = false">
             <v-card-title class="headline font-weight-bold" >{{ item.intro }}</v-card-title>
             <v-divider></v-divider>
               <v-expand-transition>

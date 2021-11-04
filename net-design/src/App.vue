@@ -4,7 +4,7 @@
       <!-- <router-view/> -->
       <div id="header">
         <img width="100%" src="../static/nanhu.jpg"/>
-        <!-- 建议在nanhu.jpg上ps毛笔竖排文字 -->		
+        <!-- 建议在nanhu.jpg上ps毛笔竖排文字 -->
       </div>
       <div id="test1">
       </div>
@@ -120,16 +120,10 @@ export default {
 </script>
 
 <style>
-<<<<<<< HEAD
 @import url("./assets/font.css");
-.header {
-  position: sticky;
-  top: 0;
-=======
 
 #header {
 
->>>>>>> fa27c00d1422978488d46609ea96a03c5fee07a8
 }
 
 #app {
@@ -148,10 +142,10 @@ export default {
   right: 50px;
   top: 85%;
 }
-<<<<<<< HEAD
+
 #headline{
 	font-family: "FZBaiZRZTJW";
-=======
+}
 
 #test1 {
   background-color: #006064;
@@ -166,6 +160,5 @@ export default {
 #test3 {
   background-color: lightcoral;
   height: 1000px;
->>>>>>> fa27c00d1422978488d46609ea96a03c5fee07a8
 }
 </style>

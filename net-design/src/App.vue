@@ -10,7 +10,7 @@
 				<index></index>
 			</div>
 			<div id="test2">
-				<carousel></carousel>
+				<hhfj></hhfj>
 			</div>
 			<div id="test3">
 				<parallax2></parallax2>
@@ -49,6 +49,8 @@
 	import hover from './components/hover.vue'
 	import index from './components/index.vue'
 	import parallax2 from './components/parallax2.vue'
+  import hhfj from './components/hhfj.vue'
+
 	import carousel from './components/carousel.vue'
 	import hover2 from './components/hover2.vue'
 	export default {
@@ -65,6 +67,7 @@
 			parallax2,
 			carousel,
 			hover2,
+      hhfj
 		},
 		data() {
 			return {

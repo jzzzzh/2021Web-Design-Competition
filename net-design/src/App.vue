@@ -9,8 +9,14 @@
 			<div id="test1">
 				<index></index>
 			</div>
+<<<<<<< HEAD
 			<div id="test2" style="height: 1600px;">
 				<hhfj></hhfj>
+=======
+			<div id="test2">
+				<!-- <hhfj></hhfj> -->
+				<carousel></carousel>
+>>>>>>> 24ea0cfb0dacacc49c0e21dee58747d928ff574c
 			</div>
 			<div id="test3" style="height: 1200px;">
 				<parallax2></parallax2>

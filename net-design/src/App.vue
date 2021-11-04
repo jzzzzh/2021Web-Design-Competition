@@ -9,10 +9,10 @@
 			<div id="test1">
 				<index></index>
 			</div>
-			<div id="test2">
+			<div id="test2" style="height: 1600px;">
 				<hhfj></hhfj>
 			</div>
-			<div id="test3">
+			<div id="test3" style="height: 1200px;">
 				<parallax2></parallax2>
 				<v-container class="grey lighten-5">
 					<v-row v-for="n in 1" :key="n" :class="n === 1 ? 'mb-6' : ''" no-gutters>
@@ -174,7 +174,7 @@
 
 	#test1 {
 		background-color: #006064;
-		height: 1000px;
+		height: 1600px;
 	}
 
 	#test2 {

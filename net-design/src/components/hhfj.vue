@@ -80,7 +80,6 @@
     align-items: center;
     bottom: 0;
     justify-content: center;
-    opacity: .9;
     position: absolute;
     width: 100%;
   }

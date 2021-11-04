@@ -10,7 +10,8 @@
 				<index></index>
 			</div>
 			<div id="test2">
-				<hhfj></hhfj>
+				<!-- <hhfj></hhfj> -->
+				<carousel></carousel>
 			</div>
 			<div id="test3">
 				<parallax2></parallax2>

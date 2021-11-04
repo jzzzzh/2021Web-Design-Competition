@@ -12,21 +12,6 @@
 					</div>
 				</v-expand-transition>
 			</v-img>
-			<v-card-text class="pt-6" style="position: relative;">
-				<v-btn absolute color="orange" class="white--text" fab large right top>武汉
-					<!-- <v-icon>mdi-cart</v-icon> -->
-				</v-btn>
-				<div class="font-weight-light grey--text text-h6 mb-2">
-					wuhan
-				</div>
-				<h3 class="text-h4 font-weight-light orange--text mb-2">
-					武汉
-				</h3>
-				<div class="font-weight-light text-h6 mb-2">
-					道之所在，虽千万人，吾往矣<br>
-					为天地立心，为生民立命，为往圣继绝学，为万世开太平
-				</div>
-			</v-card-text>
 		</v-card>
 	</v-hover>
 </template>

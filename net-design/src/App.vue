@@ -6,17 +6,16 @@
 				<img width="100%" src="../static/nanhu.jpg" />
 				<!-- 建议在nanhu.jpg上ps毛笔竖排文字 -->
 			</div>
+      <parallax></parallax>
+      <jdwy></jdwy>
 			<div id="test1">
 				<index></index>
 			</div>
-<<<<<<< HEAD
 			<div id="test2" style="height: 1600px;">
 				<hhfj></hhfj>
-=======
 			<div id="test2">
 				<!-- <hhfj></hhfj> -->
 				<carousel></carousel>
->>>>>>> 24ea0cfb0dacacc49c0e21dee58747d928ff574c
 			</div>
 			<div id="test3" style="height: 1200px;">
 				<parallax2></parallax2>
@@ -37,8 +36,6 @@
 					</v-row>
 				</v-container>
 			</div>
-			<parallax></parallax>
-			<jdwy></jdwy>
 		</div>
 		</div>
 		<goto id="gotoBlock"></goto>
@@ -159,38 +156,24 @@
 </script>
 
 <style>
-
 @import url("./assets/font.css");
 
-	#header {}
+#app {
+  background-color: #717171;
+  font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 0px;
+  position: relative;
+}
 
-	#app {
-		background-color: #717171;
-		font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
-		text-align: center;
-		color: #2c3e50;
-		margin-top: 0px;
-		position: relative;
-	}
-
-	#gotoBlock {
-		position: fixed;
-		right: 50px;
-		top: 85%;
-	}
-
-	#test1 {
-		background-color: #006064;
-		height: 1600px;
-	}
-
-	#test2 {
-		background-color: lavender;
-		height: 1000px;
-	}
-
+#gotoBlock {
+  position: fixed;
+  right: 4%;
+  top: 85%;
+}
 
 #headline{
 	font-family: "FZBaiZRZTJW";
@@ -202,18 +185,13 @@
 }
 
 #test2 {
-  background-color: lavender;
-  height: 1000px;
-}
+		background-color: lavender;
+		height: 1000px;
+	}
 
 #test3 {
   background-color: lightcoral;
   height: 1000px;
 }
-
-	#test3 {
-		background-color: lightcoral;
-		height: 1000px;
-	}
 
 </style>

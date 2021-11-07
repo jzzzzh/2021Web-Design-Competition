@@ -58,7 +58,7 @@
 <style>
 
 #jdwy {
-    background-color: rgb(218, 217, 227);
+    background-color: #dad9e3;
 }
 
 #timelineBlock {

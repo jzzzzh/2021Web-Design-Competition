@@ -159,7 +159,7 @@
 @import url("./assets/font.css");
 
 #app {
-  background-color: #717171;
+  background-color: #717166;
   font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

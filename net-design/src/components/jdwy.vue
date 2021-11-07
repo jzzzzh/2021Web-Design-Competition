@@ -1,31 +1,28 @@
 <template>
   <div id="jdwy">
-    <h2>建党伟业主体</h2>
-    <v-timeline  light :dense="$vuetify.breakpoint.smAndDown">
-        <v-timeline-item v-for="(item, i) in items" :key="i" :color="item.color" fill-dot>
-          <template v-slot:opposite>
-            <span :class="`headline font-weight-bold ${item.color}--text`"
-            v-text="item.year">
-            </span>
-          </template>
-          <template v-slot:icon>
-            <v-avatar :color="item.color" size=30>
-              <span class="headline font-weight-bold">{{ item.dotText }}</span>
-            </v-avatar>
-          </template>
-          <v-card :elevation="10" v-ripple="{ class: `primary--text` }"  :color="item.color" @mouseenter="item.show = true" @mouseleave="item.show = false">
-            <v-card-title class="headline font-weight-bold" >{{ item.intro }}</v-card-title>
-            <v-divider></v-divider>
-              <v-expand-transition>
-                <div v-show="item.show">
-                  <v-card-text>
-                    <p>{{ item.text }}</p>
-                  </v-card-text>
-                </div>
-              </v-expand-transition>
-          </v-card>
-        </v-timeline-item>
-    </v-timeline>
+    <div id="timelineBlock">
+      <v-timeline  light :dense="$vuetify.breakpoint.smAndDown">
+          <v-timeline-item v-for="(item, i) in items" :key="i" :color="item.color" fill-dot small >
+            <template v-slot:opposite>
+              <span :class="`headline font-weight-bold ${item.color}--text`"
+              v-text="item.year">
+              </span>
+            </template>
+            <v-card :elevation="10" v-ripple="{ class: `info--text` }"  :color="item.color"
+            @mouseenter="item.show = true" @mouseleave="item.show = false">
+              <v-card-title class="headline font-weight-bold" >{{ item.intro }}</v-card-title>
+              <v-divider></v-divider>
+                <v-expand-transition>
+                  <div v-show="item.show">
+                    <v-card-text>
+                      <p>{{ item.text }}</p>
+                    </v-card-text>
+                  </div>
+                </v-expand-transition>
+            </v-card>
+          </v-timeline-item>
+      </v-timeline>
+    </div>
   </div>
 </template>
 
@@ -34,28 +31,38 @@
 		name: 'jdgs',
 		data: () => ({
 		      items: [
-		        {show: false,color: '#5d8edd',year:'1921年',dotText:'始',intro: '中国共产党成立',text: '1921年3月，李大钊撰文公开呼吁创建工人阶级政党，6月，共产国际代表马林和共产国际远东书记处代表尼克尔斯基先后到达上海，与上海的党组织成员建立了联系，建议及时召开全国代表大会，正式对外宣告中国共产党的成立。\
-            代表大会原定于6月20日召开，直到7月23日代表们才在上海聚齐。当天晚上，中国共产党第一次全国代表大会在上海法租界望志路106号正式开幕。\
-            30日晚，因一名神秘男子的突然闯入而终止会议，代表们分批转移到浙江嘉兴南湖的游船上继续进行。嘉兴南湖，由此成为中国共产党扬帆起航的圣地。“红船精神”也成为共产党最具代表性的精神标识。\
-            党的一大确定党的名称为“中国共产党”，通过了党的纲领。党的纲领表明，中国共产党从建党开始就旗帜鲜明地把实现社会主义、共产主义作为自己的奋斗目标。',},
-		        {show: false,color: '#81d9d9',year:'1921年',dotText:'乱',intro: 'Lorem ipsum dolor',text: '1922年7月16日至23日，党的二大在上海南成都路辅德里625号举行。出席大会的代表12人，代表全国195名党员。大会举行了三次全体会议，陈独秀主持大会并代表中央局向大会作一年来的工作报告。\
-            党的二大发表了具有重大历史意义的宣言，在中国近代历史上第一次明确提出彻底反帝反封建的民主革命纲领，“打倒列强，除军阀”随即成为各族人民的共同呼声。\
-            党的二大后，罢工斗争在全国各地普遍兴起。其中，安源路矿工人大罢工产生了重大影响。这次罢工是中国共产党第一次独立领导并取得完全胜利的工人斗争，提高了党组织在工人群众中的威信，扩大了党和工人阶级在全国的政治影响。',},
-		        {show: false,color: '#5d8edd',year:'1921年',dotText:'始',intro: 'Lorem ipsum dolor',text: '3Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.',},
-		        {show: false,color: '#5d8edd',year:'1921年',dotText:'始',intro: 'Lorem ipsum dolor',text: '4Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.',},
-            {show: false,color: '#5d8edd',year:'1921年',dotText:'始',intro: 'Lorem ipsum dolor',text: '4Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.',},
-            {show: false,color: '#5d8edd',year:'1921年',dotText:'始',intro: 'Lorem ipsum dolor',text: '4Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.',},
-            {show: false,color: '#5d8edd',year:'1921年',dotText:'始',intro: 'Lorem ipsum dolor',text: '4Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.',},
-            {show: false,color: '#5d8edd',year:'1921年',dotText:'始',intro: 'Lorem ipsum dolor',text: '4Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.',},
-            {show: false,color: '#5d8edd',year:'1921年',dotText:'始',intro: 'Lorem ipsum dolor',text: '4Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.',},
-            {show: false,color: '#5d8edd',year:'1921年',dotText:'始',intro: 'Lorem ipsum dolor',text: '4Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.',},
+		        {show: false,color: '#81d9d9',year:'1920年',intro: '上海共产党早期组织正式成立',text: '1920年8月，上海共产党早期组织正式成立。\
+            参加者有陈独秀、李汉俊、李达、陈望道、俞秀松等，陈独秀任书记。上海共产党早期组织成立后，实际上成为各地建党活动的联络中心，起着中国共产党发起组的重要作用。这是中国共产党的最早组织',},
+		        {show: false,color: '#81d9d9',year:'1921年',intro: '中国共产党的诞生',text: '1921年7月23日—31日，在上海召开了中国共产党的第一次全国代表大会。1921年7月23日，中共一大在上海秘密召开。因突遭法国巡捕搜查，会议被迫休会。\
+            7月底，中共一大代表毛泽东、董必武、陈潭秋、王尽美、邓恩铭、李达等，由李达夫人王会悟做向导，\
+            从上海乘火车转移到嘉兴，再从狮子汇渡口登上渡船到湖心岛，最后转登王会悟预订的游船，并在游船中庄严宣告中国共产党的诞生。',},
+		        {show: false,color: '#81d9d9',year:'1922年',intro: '中国共产党加入共产国际',text: '1922年7月16日至23日，中国共产党第二次全国代表大会在上海南成都路辅德里625号召开。大会分析了国际形势和中国社会政治经济状况，讨论了党的任务，\
+            通过了《中国共产党第二次全国代表大会宣言》、《中国共产党章程》及９个决议案。大会正式决定加入共产国际，成为共产国际的一个支部。\
+            大会根据世界革命形势和中国政治经济状况，制定了党的最高纲领和最低纲领。在中国近代史上第一次明确地提出了反帝反封建的民主革命纲领，指明了中国人民革命斗争的方向，表明了共产主主义革命的基本思想奠定了基础。',},
+		        {show: false,color: '#81d9d9',year:'1945年',intro: '中国共产党的第七届全国代表大会召开',text: '1945年4月23日至6月11日中国共产党召开第七次全国代表大会，为迎接抗日战争的胜利和新民主主义革命在全国的胜利，奠定了政治上、思想上、组织上的基础。',},
+            {show: false,color: '#81d9d9',year:'1956年',intro: '党的工作重心转向社会主义建设',text: '1956年9月15日至27日召开中国共产党第八次全国代表大会于，正确地分析了社会主义改造基本完成以后，中国阶级关系和国内主要矛盾的变化，确定把党的工作重点转向社会主义建设。\
+            大会提出，生产资料私有制的社会主义改造基本完成以后，国内的主要矛盾不再是工人阶级和资产阶级之间的矛盾，而是人民对于建立先进的工业国的要求同落后的农业国的现实之间的矛盾，\
+            是人民对于经济文化迅速发展的需要同当前经济文化不能满足人民需要的状况之间的矛盾。大会作出了党和国家的工作重点必须转移到社会主义建设上来的重大战略决策。大会在总结中国第一个五年计划实施经验的基础上，继续坚持既反保守又反冒进，即在综合平衡中稳步前进的经济建设方针。',},
+            {show: false,color: '#81d9d9',year:'1978年',intro: '党的历史性转折',text: '1978年12月18日-22日召开了中国共产党第十一届中央委员会。标志着中国共产党从根本上冲破了长期“左”倾错误的严重束缚，端正了党的指导思想，使广大党员、干部和群众从过去盛行的个人崇拜和教条主义束缚中解放出来，\
+            在思想上、政治上、组织上全面恢复和确立了马克思主义的正确路线，结束了1976年10月以来党的工作在徘徊中前进的局面，将党领导的社会主义事业引向健康发展的道路。党的十一届三中全会揭开了党和国家历史的新篇章，是建国以来我党历史上具有深远意义的伟大转折。',},
+            {show: false,color: '#81d9d9',year:'1992年',intro: '确立邓小平理论在我党的指导地位',text: '1992年10月12日至18日召开了中国共产党第十四次全国代表大会，江泽民在会上作了题为《加快改革开放和现代化建设步伐，夺取有中国特色社会主义事业的更大胜利》的报告。\
+            大会作出了三项具有深远意义的重大决策：一是要求全党抓住机遇，加快发展，集中精力把经济建设搞上去。二是明确我国经济体制改革的目标是建立社会主义市场经济体制。三是确立邓小平建设有中国特色社会主义理论在全党的指导地位。',},
+            {show: false,color: '#81d9d9',year:'1997年',intro: '把邓小平理论确立为全党的指导思想',text: '1997年9月12日至18日召开中国共产党第十五次全国代表大会。把邓小平理论确立为全党的指导思想，对于全党、全国各族人民胜利实现20世纪末的奋斗目标，进而在21世纪开创更加壮阔、更加辉煌的前程产生极其重大而深远的影响。',},
+            {show: false,color: '#81d9d9',year:'2012年',intro: '中国共产党的第十八届中央委员会召开',text: '2012年11月8日召开中国共产党第十八次全国代表大会。明确了科学发展观是党必须长期坚持的指导思想；制定了坚持走中国特色社会主义政治发展道路和推进政治体制改革前进方向；提出了全面建成小康社会目标；回答了坚定不移走中国特色社会主义道路政策立场。',},
+            {show: false,color: '#81d9d9',year:'2017年',intro: '决胜全面小康',text: '2017年10月18日召开中国共产党第十九次全国代表大会。习近平代表第十八届中央委员会向大会作了题为《决胜全面建成小康社会 夺取新时代中国特色社会主义伟大胜利》的报告。党的十九大，是在全面建成小康社会决胜阶段、\
+            中国特色社会主义发展关键时期召开的一次十分重要的大会。承担着谋划决胜全面建成小康社会、深入推进社会主义现代化建设的重大任务，事关党和国家事业继往开来，事关中国特色社会主义前途命运，事关最广大人民根本利益。',},
           ],
 		    }),
 	}
 </script>
 <style>
- /* 解决了button等组件的ripple效果被背景遮挡的bug 但我也不知道为什么这么写有用 */
+
 #jdwy {
-    background-color: rgb(210, 210, 227);
+    background-color: #dad9e3;
+}
+
+#timelineBlock {
+  width: 80%;
+  margin: 0 auto;
 }
 </style>

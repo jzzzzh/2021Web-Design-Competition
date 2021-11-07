@@ -12,17 +12,21 @@
 </template>
 
 <script>
+
   export default {
   	name: 'parallax',
   	data() {
   		return {}
   	}
   }
+
 </script>
 
 <style>
+
 #headText {
-  color:LightSteelBlue;
+  color: #ff5500;
   font-family: "STHeiti";
 }
+
 </style>

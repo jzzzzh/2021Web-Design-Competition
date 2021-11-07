@@ -8,8 +8,10 @@ import 'fullpage.js/vendors/scrolloverflow'
 import VueFullPage from 'vue-fullpage.js'
 import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
+import './assets/font.css';
 Vue.use(Vuetify);
 Vue.use(VueFullPage);
+// Vue.use(font);
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

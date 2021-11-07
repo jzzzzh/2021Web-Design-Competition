@@ -9,7 +9,7 @@
 </template>
 
 <script>
-  import img1 from './img/毛泽东.jpg'
+  import img1 from '../assets/毛泽东.jpg'
   export default {
     data () {
       return {

@@ -28,7 +28,7 @@
     cursor: pointer;
     border: 1px solid #aaa;
     border-radius: 5px;
-    background: url("./img/风云人物1.jpg") no-repeat center;
+    background: url("../assets/风云人物1.jpg") no-repeat center;
     background-size: contain;
   }
 

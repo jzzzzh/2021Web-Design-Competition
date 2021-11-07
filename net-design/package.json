@@ -14,6 +14,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "jquery": "^3.6.0",
     "vue": "^2.5.2",
     "vue-fullpage.js": "^0.1.7",

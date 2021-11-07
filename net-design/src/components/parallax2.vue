@@ -4,7 +4,7 @@
     <!-- 裁切图片下面部分 使得人物处于中心位置 -->
         <v-row align="center" justify="center">
           <v-col class="text-center" cols="12">
-            <h1 class="display-2 font-weight-black mb-3" id="headText">党民同心</h1>
+            <h1 class="display-2 font-weight-black mb-3 animate__bounceIn" id="headText">党民同心</h1>
           </v-col>
         </v-row>
     </v-parallax>
@@ -12,6 +12,7 @@
 </template>
 
 <script>
+	import 'animate.css';
   export default {
   	name: 'parallax',
   	data() {

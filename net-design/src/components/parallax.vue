@@ -26,7 +26,7 @@
 
 #headText {
   font-family: "STHeiti";
-  background-image:-webkit-linear-gradient(top, #e23708,#df6010,#eb740c);
+  background-image:-webkit-linear-gradient(top,#eb9509, #e23708);
   -webkit-background-clip:text;
   -webkit-text-fill-color:transparent;
 }

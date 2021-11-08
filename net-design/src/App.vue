@@ -8,17 +8,17 @@
 			</div>
       <parallax id="jdwyHeader"></parallax>
       <jdwy></jdwy>
-
 			<div id="fyrw">
 				<index></index>
 			</div>
-			<div id="test3">
-				<parallax2 id="dmtx"></parallax2>
+			<div id="test2">
+				<parallax2 id="dmtx" justify="center"></parallax2>
 				<province></province>
 			</div>
-			<div id="test2" style="background-color: lavender;">
+			<div id="test3" style="background-color: lavender;">
 				<hhfj id="hhfj"></hhfj>
 			</div>
+      <div id="footer"></div>
 		</div>
 		</div>
 		<goto id="gotoBlock"></goto>
@@ -82,7 +82,7 @@
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 		text-align: center;
-		color: #2c3e50;
+
 		margin-top: 0px;
 		position: relative;
 	}
@@ -99,16 +99,18 @@
 
 	#test1 {
 		background-color: #006064;
-		height: 1000px;
 	}
 
 	#test2 {
-		background-color: lavender;
-		height: 1000px;
+    background-image:-webkit-linear-gradient(top, #ffc8b7,lightcoral);
 	}
 
-	#test3 {
-		background-color: lightcoral;
-		height: 1000px;
-	}
+  #test3 {
+    background-image:-webkit-linear-gradient(top, #eeebf4,#E6E6FA);
+  }
+
+  #footer {
+    height: 5%;
+    background-image:-webkit-linear-gradient(top, #E6E6FA,#b1adcc);
+  }
 </style>

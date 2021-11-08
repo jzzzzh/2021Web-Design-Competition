@@ -27,6 +27,15 @@
     data: () => ({
     show: 'false',
     items: [
+			{
+			  options:{
+			        duration: 800,
+			        offset: 0,
+			        easing: 'easeInOutQuad',
+			      },
+			  id:'#jdwy',
+			  name: '建党伟业',
+			},
       {
         options:{
               duration: 800,
@@ -34,7 +43,7 @@
               easing: 'easeInOutQuad',
             },
         id:'#test1',
-        name: 'test1',
+        name: '风云人物',
       },
       {
         options:{
@@ -43,7 +52,7 @@
               easing: 'easeInOutQuad',
             },
         id:'#test2',
-        name: 'test2',
+        name: '党民同心',
       },
       {
         options:{
@@ -52,17 +61,17 @@
               easing: 'easeInOutQuad',
             },
         id:'#test3',
-        name: 'test3',
+        name: '辉煌奋进',
       },
-      {
-        options:{
-              duration: 800,
-              offset: 0,
-              easing: 'easeInOutQuad',
-            },
-        id:'#jdwy',
-        name: '建党伟业',
-      },
+      // {
+      //   options:{
+      //         duration: 800,
+      //         offset: 0,
+      //         easing: 'easeInOutQuad',
+      //       },
+      //   id:'#jdwy',
+      //   name: '建党伟业',
+      // },
     ]
   })
   }

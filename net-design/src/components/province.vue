@@ -55,7 +55,7 @@
 				],
 				items2: [{
 						appData: {
-							imgsrc: "https://img14.360buyimg.com/ddimg/jfs/t1/197416/10/15789/998080/6182a1d0Ef1e0f64d/738bb20db85f2a9e.jpg",
+							imgsrc: "https://img0.baidu.com/it/u=529297116,3548176514&fm=26&fmt=auto",
 							word1: "道之所在，虽千万人，吾往矣",
 							word2: "为天地立心，为生民立命，为往圣继绝学，为万世开太平",
 							word: "全面小康",
@@ -66,7 +66,7 @@
 					},
 					{
 						appData: {
-							imgsrc: "https://s3.bmp.ovh/imgs/2021/11/34c5382ef5f1da5b.jpg",
+							imgsrc: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww.chinamil.com.cn%2Ftheory%2Fattachement%2Fjpg%2Fsite351%2F20180828%2F1658311984892661790772.jpg&refer=http%3A%2F%2Fwww.chinamil.com.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1638967545&t=d60fd27403269f8b4c209dd64a0a1e87",
 							word1: "这双手扛得了枪，也护得住你",
 							word2: "挺住，河南！",
 							word: "一带一路",
@@ -77,7 +77,7 @@
 					},
 					{
 						appData: {
-							imgsrc: "https://s3.bmp.ovh/imgs/2021/11/34c5382ef5f1da5b.jpg",
+							imgsrc: "https://i.loli.net/2021/11/08/3RckCGNPMbvOy4w.jpg",
 							word1: "这双手扛得了枪，也护得住你",
 							word2: "挺住，河南！挺住，中国！",
 							word: "共同富裕",

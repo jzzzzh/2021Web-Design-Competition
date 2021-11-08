@@ -9,14 +9,14 @@
       <parallax id="jdwyHeader"></parallax>
       <jdwy></jdwy>
 
-			<div id="fyrw" style="height: 1000px;">
+			<div id="fyrw">
 				<index></index>
 			</div>
-			<div id="test3" style="height: 1200px;">
+			<div id="test3">
 				<parallax2 id="dmtx"></parallax2>
 				<province></province>
 			</div>
-			<div id="test2" style="height: 1600px; background-color: lavender;">
+			<div id="test2" style="background-color: lavender;">
 				<hhfj id="hhfj"></hhfj>
 			</div>
 		</div>

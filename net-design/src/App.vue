@@ -6,35 +6,18 @@
 				<img width="100%" src="../static/nanhu.jpg" /></img>
 				<!-- 建议在nanhu.jpg上ps毛笔竖排文字 -->
 			</div>
-<<<<<<< HEAD
-			<parallax></parallax>
-			<jdwy></jdwy>
-=======
       <parallax id="jdwyHeader"></parallax>
       <jdwy></jdwy>
->>>>>>> fe341d6276dbb16e71e6fba3e7e587d070ea4b75
-			<div id="test1">
+
+			<div id="fyrw" style="height: 1000px;">
 				<index></index>
-			</div>
-			<!-- <div id="test2" style="height: 1600px;"> -->
-<<<<<<< HEAD
-			<!-- <hhfj></hhfj> -->
-			<div id="test2" style="height: 1100px; background-color: lightcoral;">
-				<parallax2></parallax2>
-=======
-				<!-- <hhfj></hhfj> -->
-			<div id="test2" style="height: 1600px;">
-				<hhfj id="hhfj"></hhfj>
-				<!-- <carousel></carousel> -->
 			</div>
 			<div id="test3" style="height: 1200px;">
 				<parallax2 id="dmtx"></parallax2>
->>>>>>> fe341d6276dbb16e71e6fba3e7e587d070ea4b75
 				<province></province>
-				<!-- <carousel></carousel> -->
 			</div>
-			<div id="test3" style="height: 1600px; background-color: lavender;">
-				<hhfj></hhfj>
+			<div id="test2" style="height: 1600px; background-color: lavender;">
+				<hhfj id="hhfj"></hhfj>
 			</div>
 		</div>
 		</div>

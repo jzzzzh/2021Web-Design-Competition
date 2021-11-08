@@ -7,7 +7,7 @@
 				<v-expand-transition>
 					<div v-if="hover"
 						class="d-flex transition-fast-in-fast-out orange darken-2 v-card--reveal text-h6 white--text"
-						style="height: 100%;">
+						style="height: 100%;opacity: 0.6 !important;">
 						{{dataList.word}}
 					</div>
 				</v-expand-transition>

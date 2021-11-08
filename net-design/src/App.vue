@@ -12,7 +12,7 @@
 				<index></index>
 			</div>
 			<div id="test2">
-				<parallax2 id="dmtx" justify="center"></parallax2>
+				<parallax2 id="dmtx"></parallax2>
 				<province></province>
 			</div>
 			<div id="test3" style="background-color: lavender;">

@@ -9,12 +9,10 @@
       <v-card v-show=show
       style="position: absolute;right: 10px;top: -30px"
       class="mx-auto"max-width="344">
-        <v-tabs vertical v-for="(item, i) in items" :key="i">
-          <v-btn @click="$vuetify.goTo(item.id,item.options)"
-          text small outlined color="primary">
+          <v-btn v-for="(item, i) in items" :key="i" @click="$vuetify.goTo(item.id,item.options)"
+          text small color="red lighten-2" class=" font-weight-black">
           {{item.name}}
           </v-btn>
-        </v-tabs>
       </v-card>
     </v-expand-x-transition>
   </div>
@@ -42,8 +40,13 @@
               offset: 0,
               easing: 'easeInOutQuad',
             },
+<<<<<<< HEAD
         id:'#test1',
         name: '风云人物',
+=======
+        id:'#jdwyHeader',
+        name: '建党伟业',
+>>>>>>> fe341d6276dbb16e71e6fba3e7e587d070ea4b75
       },
       {
         options:{
@@ -51,8 +54,13 @@
               offset: 0,
               easing: 'easeInOutQuad',
             },
+<<<<<<< HEAD
         id:'#test2',
         name: '党民同心',
+=======
+        id:'#hhfj',
+        name: '辉煌奋进',
+>>>>>>> fe341d6276dbb16e71e6fba3e7e587d070ea4b75
       },
       {
         options:{
@@ -60,6 +68,7 @@
               offset: 0,
               easing: 'easeInOutQuad',
             },
+<<<<<<< HEAD
         id:'#test3',
         name: '辉煌奋进',
       },
@@ -72,6 +81,21 @@
       //   id:'#jdwy',
       //   name: '建党伟业',
       // },
+=======
+        id:'#dmtx',
+        name: '党民同心',
+      },
+      {
+        options:{
+              duration: 800,
+              offset: 0,
+              easing: 'easeInOutQuad',
+            },
+        id:'#test3',
+        name: 'test3',
+      },
+
+>>>>>>> fe341d6276dbb16e71e6fba3e7e587d070ea4b75
     ]
   })
   }

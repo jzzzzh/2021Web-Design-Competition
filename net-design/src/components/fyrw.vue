@@ -4,7 +4,7 @@
       <!-- 裁切图片下面部分 使得人物处于中心位置 -->
       <v-row align="center" justify="center">
         <v-col class="text-center">
-          <h1 class="display-2 font-weight-black mb-3" style="font-family:'Microsoft YaHei UI';color:#0dc;">风云人物</h1>
+          <h1 id="headText" class="display-2 font-weight-black mb-3" style="color:whitesmoke;">风云人物</h1>
         </v-col>
       </v-row>
     </v-parallax>
@@ -12,7 +12,7 @@
       <v-row no-gutters class="mb-16">
         <v-col cols="16">
           <v-hover v-slot="{ hover }">
-            <v-card class="mx-auto" color="grey lighten-4" style="height:600px ; width: auto;box-sizing: border-box">
+            <v-card class="mx-auto" color="grey lighten-4">
               <v-img :aspect-ratio="16/9" src="../static/fyrw2.jpg">
                 <v-fade-transition>
                   <div v-if="hover"
@@ -35,7 +35,7 @@
           </v-hover>
         </v-col>
       </v-row>
-      <v-row style="margin-bottom: 160px" no-gutters>
+      <v-row style="margin-bottom: 140px" no-gutters>
         <v-col v-for="(item, i) in items" :key="i" cols="4" md="4">
           <v-card class="mx-auto" color="grey lighten-4" @click="item.myshow = !item.myshow">
             <v-img :src="item.src1" :aspect-ratio="3/4"></v-img>

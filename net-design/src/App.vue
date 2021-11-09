@@ -65,7 +65,7 @@ export default {
         scrollBar: false,
         menu: '#menu',
         sectionsColor: ['#41b883', '#ff5f45', '#0798ec', '#fec401', '#1bcee6', '#ee1a59', '#2c3e4f', '#ba5be9',
-          '#b4b8ab', '#ff5500'
+          '#b4b8ab', '#9a3a2d'
         ]
       }
     }
@@ -98,7 +98,7 @@ export default {
 }
 
 #test1 {
-  background-color: #ff5500;
+  background-color: #9a3a2d;
   height: 1000px;
 }
 

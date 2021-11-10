@@ -17,7 +17,7 @@
                   <div v-if="hover"
                        class="d-flex transition-fast-in-fast-out lighten-0 v-card--top text-h2 white--text"
                        style="height: 100%;color: #ff55000c; ">
-                    <v-card-text style="position: relative;font-size: large;">
+                    <v-card-text style="position: relative;font-size: large;text-shadow:0px 0px 3px #000;">
                       <p>十月革命一声炮响，给中国送来了马克思列宁主义。在中国人民和中华民族的伟大觉醒中，在马克思列宁主义同中国工人运动的紧密结合中，
                         中国共产党应运而生。中国产生了共产党，这是开天辟地的大事变，深刻改变了近代以后中华民族发展的方向和进程，
                         深刻改变了中国人民和中华民族的前途和命运，深刻改变了世界发展的趋势和格局。

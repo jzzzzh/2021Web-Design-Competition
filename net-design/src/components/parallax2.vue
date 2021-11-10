@@ -22,8 +22,5 @@
 </script>
 
 <style>
-#headText {
-  color: #ff5500;
-  font-family: "STHeiti";
-}
+
 </style>

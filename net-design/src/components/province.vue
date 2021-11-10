@@ -94,18 +94,4 @@
 </script>
 
 <style>
-	#test1 {
-		background-color: #006064;
-		height: 1600px;
-	}
-
-	#test2 {
-		background-color: lavender;
-		height: 1000px;
-	}
-
-	#test3 {
-		background-color: lightcoral;
-		height: 1000px;
-	}
 </style>

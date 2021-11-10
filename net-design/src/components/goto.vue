@@ -44,18 +44,18 @@
 						offset: 0,
 						easing: 'easeInOutQuad',
 					},
-					id: '#dmtx',
-					name: '党民同心',
-				},
-				{
-					options: {
-						duration: 800,
-						offset: 0,
-						easing: 'easeInOutQuad',
-					},
 					id: '#hhfj',
 					name: '辉煌奋进',
 				},
+        {
+        	options: {
+        		duration: 800,
+        		offset: 0,
+        		easing: 'easeInOutQuad',
+        	},
+        	id: '#dmtx',
+        	name: '党民同心',
+        },
 			]
 		})
 	}

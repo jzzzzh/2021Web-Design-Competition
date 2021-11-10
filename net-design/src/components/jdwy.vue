@@ -58,7 +58,7 @@
 <style>
 
 #jdwy {
-    background-color: #dad9e3;
+    background-image:-webkit-linear-gradient(top, #e2e6f1,#B0C4DE);
 }
 
 #timelineBlock {

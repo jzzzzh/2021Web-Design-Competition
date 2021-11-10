@@ -8,19 +8,20 @@
 			</div>
       <parallax id="jdwyHeader"></parallax>
       <jdwy></jdwy>
-			<div id="test1" style="height: 2200px;">
+			<div id="test1">
         <fyrw id="fyrw"></fyrw>
 			</div>
 			<!-- <div id="test2" style="height: 1600px;"> -->
 				<!-- <hhfj></hhfj> -->
-			<div id="test2" style="height: 1600px;">
+			<div id="test2">
 				<hhfj id="hhfj"></hhfj>
 				<!-- <carousel></carousel> -->
 			</div>
-			<div id="test3" style="height: 1200px;">
+			<div id="test3">
 				<parallax2 id="dmtx"></parallax2>
 				<province></province>
 			</div>
+      <div id="footer"></div>
 		</div>
 		</div>
 		<goto id="gotoBlock"></goto>
@@ -82,7 +83,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
   margin-top: 0px;
   position: relative;
 }
@@ -98,18 +98,20 @@ export default {
 }
 
 #test1 {
+  background-image:-webkit-linear-gradient(top, #ff7547,#9a3a2d);
   background-color: #9a3a2d;
-  height: 1000px;
 }
 
 #test2 {
-		background-color: lavender;
-		height: 1000px;
-	}
-
-#test3 {
-  background-color: lightcoral;
-  height: 1000px;
+  background-image:-webkit-linear-gradient(top, #ffc8b7,lightcoral);
 }
 
+#test3 {
+  background-image:-webkit-linear-gradient(top, #eeebf4,#E6E6FA);
+}
+
+#footer {
+  height: 5%;
+  background-image:-webkit-linear-gradient(top, #E6E6FA,#b1adcc);
+}
 </style>

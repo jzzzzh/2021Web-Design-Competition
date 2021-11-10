@@ -1,7 +1,6 @@
 <template>
   <div id='fyrw'>
-    <v-parallax dark height="200" src="./assets/fyrw2.jpg">
-      <!-- 裁切图片下面部分 使得人物处于中心位置 -->
+    <v-parallax dark height="200" src="../static/fyrw.jpg">
       <v-row align="center" justify="center">
         <v-col class="text-center">
           <h1 id="headText" class="display-2 font-weight-black mb-3" style="color:whitesmoke;">风云人物</h1>
@@ -87,8 +86,6 @@
         </v-col>
       </v-row>
     </v-container>
-    <!--  </v-parallax>
- -->
   </div>
 </template>
 

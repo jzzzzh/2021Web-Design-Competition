@@ -9,7 +9,7 @@
       <parallax id="jdwyHeader"></parallax>
       <jdwy></jdwy>
 
-			<div id="fyrw">
+			<div id="fyrw" style="height: 1000px;">
 				<index></index>
 			</div>
 			<div id="test3">
